@@ -1,7 +1,7 @@
 ---
 title: 'ЕТЕНДЕР ПРО - лучшие тендеры в одном месте'
 plain: true
-theme: 'black'
+theme: 'dark'
 ---
 
 
