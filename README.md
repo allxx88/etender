@@ -1,114 +1,135 @@
-# iTheme theme for Hugo
+ [![hugo + netlify](https://res.cloudinary.com/dzkoxrsdj/image/upload/v1656562989/template_1_edyp8b.png)](https://ntl.fyi/3P9w1mr)
 
-**If you like this theme, [please give me a star!](https://github.com/floyd-li/hugo-theme-itheme)**
+# Hugo Quickstart Template   
 
-![clones](https://raw.githubusercontent.com/floyd-li/traffic-to-badge/traffic/traffic-hugo-theme-itheme/clones.svg)
-![clones per week](https://raw.githubusercontent.com/floyd-li/traffic-to-badge/traffic/traffic-hugo-theme-itheme/clones_per_week.svg)
+This is a bare-bones Hugo project that has everything you need to quickly deploy it to [Netlify](https://netlify.com). 
 
-## Introduction
+Hate reading, here's a video: https://youtu.be/t-tsRxxYdpk
 
-[中文说明](https://github.com/floyd-li/hugo-theme-itheme/blob/master/README_CN.md)
+Love reading, here's blog post: https://www.netlify.com/blog/deploy-your-hugo-app-quick/
 
-An Apple style theme for [Hugo](https://gohugo.io/), inspired by [astro-air-blog](https://github.com/austin2035/astro-air-blog)
+## Table of Contents:
 
-## Preview
+- [Quick Setup + Deploy Option](#quick-setup--deploy-option)
+- [Regular Setup](#regular-setup)
+  - [Cloning + Install Packages](#1-cloning--install-packages)
+  - [Deploying](#2-deploying)
+- [Styling](#styling)
+  - [Notes on Styling](#notes-on-styling)
+  - [Remove Styling](#remove-styling)
+- [Hugo + Netlify Resources](#hugo--netlify-resources)
+- [Testing](#testing)
+  - [Included Default Testing](#included-default-testing)
+  - [Removing Renovate](#removing-renovate)
+  - [Removing Cypress](#removing-cypress)
+- [Want to learn more?](#want-to-learn-more)
 
-[Demo Site](https://hugo-theme-itheme.netlify.app)
+## Quick Setup + Deploy Option
 
-## Quick Start
+Click this button and it will help you create a new repo, create a new Netlify project, and deploy!
 
-Before you start, make sure you have installed [Hugo](https://gohugo.io/).
+[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/hugo-quickstart)
 
-### Quick start with the demo site
+## Regular Setup
 
-Here's the [demo site repo](https://github.com/floyd-li/itheme-demo-site)
+ ### 1. Cloning + Running Locally
+
+  - Clone this repo with one of these options:
+
+    - Click the 'Use this template' button at the top of the page
+    - Or via the command line `git clone https://github.com/netlify-templates/hugo-quickstart`
+
+ - Start the Hugo sever & check it out:
+
+   - `hugo server -D`
+   - go to [http://localhost:1313/](http://localhost:1313/)
+
+  > Alternatively, you can run this locally with [the Netlify CLI](https://docs.netlify.com/cli/get-started/)'s by running the `netlify dev` command for more options like receiving a live preview to share (`netlify dev --live`) and the ability to test [Netlify Functions](https://www.netlify.com/products/functions) and [redirects](https://docs.netlify.com/routing/redirects/). 
+
+  ### 2. Deploying
+  - Install the Netlify CLI globally `npm install netlify-cli -g`
+    
+  - Run `hugo`
+
+  - Then use the `netlify deploy` for a deploy preview link or `netlify deploy --prod` to deploy to production
+
+  Here are a few other ways you can deploy this template:
+    
+  - Use the Netlify CLI's create from template command `netlify sites:create-template hugo-quickstart` which will create a repo, Netlify project, and deploy it
+    
+  - If you want to utilize continuous deployment through GitHub webhooks, run the Netlify command `netlify init` to create a new project based on your repo or `netlify link` to connect your repo to an existing project
+
+## Styling
+
+We've added some modern styling to this template using Sass within an external stylesheet, this will allow you to easily remove our styling and add in your own. 
+
+If you decide that you want to keep our styling you can review our style notes below. 
+
+### Notes on Styling
+
+The variables below give you the ability to change the gradient colors of the blobs and are interpolated into the URL string of the background-img within the body. 
+
+```css
+// Controls the blob blur gradient colors within the main tag's svg
+--top-right-blur-1: #2ebc92;
+--top-right-blur-2: #ecbb50;
+--bttm-left-blur-1: #ff3e89;
+--bttm-left-blur-2: #0095cc;
+```
+
+## Remove Styling
+
+If you decide that our styling is not for you, all you'll need to do is remove the [demo-styling.css](https://github.com/netlify-templates/hugo-quickstart/blob/main/themes/netlify-basic/static/css/demo-styling.css) file. 
+
+## Hugo + Netlify Resources
+
+Here are some resources to help you on your Hugo + Netlify coding fun!
+
+- [Hugo on Netlify Integration Page](https://ntl.fyi/3P9w1mr)
+
+
+Hope this template helps :) Happy coding 👩🏻‍💻!
+
+---
+
+## Testing
+
+### Included Default Testing
+
+We’ve included some tooling that helps us maintain these templates. This template currently uses:
+
+- [Renovate](https://www.mend.io/free-developer-tools/renovate/) - to regularly update our dependencies
+- [Cypress](https://www.cypress.io/) - to run tests against how the template runs in the browser
+- [Cypress Netlify Build Plugin](https://github.com/cypress-io/netlify-plugin-cypress) - to run our tests during our build process
+
+If your team is not interested in this tooling, you can remove them with ease!
+
+### Removing Renovate
+
+In order to keep our project up-to-date with dependencies we use a tool called [Renovate](https://github.com/marketplace/renovate). If you’re not interested in this tooling, delete the `renovate.json` file and commit that onto your main branch.
+
+### Removing Cypress
+
+For our testing, we use [Cypress](https://www.cypress.io/) for end-to-end testing. This makes sure that we can validate that our templates are rendering and displaying as we’d expect. By default, we have Cypress not generate deploy links if our tests don’t pass. If you’d like to keep Cypress and still generate the deploy links, go into your `netlify.toml` and delete the plugin configuration lines:
+
+```diff
+[[plugins]]
+  package = "netlify-plugin-cypress"
+-  [plugins.inputs.postBuild]
+-    enable = true
+-
+-  [plugins.inputs]
+-    enable = false 
+```
+
+If you’d like to remove the `netlify-plugin-cypress` build plugin entirely, you’d need to delete the entire block above instead. And then make sure sure to remove the package from the dependencies using:
 
 ```bash
-git clone --recurse-submodules https://github.com/floyd-li/itheme-demo-site.git my-site
-cd ./my-site && hugo server -D
+npm uninstall -D netlify-plugin-cypress
 ```
 
-Then you can visit `http://localhost:1313` to see the demo site!
-
-### Use the theme for existed site
+And lastly if you’d like to remove Cypress entirely, delete the entire `cypress` folder and the `cypress.config.ts` file. Then remove the dependency using:
 
 ```bash
-git submodule add https://github.com/floyd-li/hugo-theme-itheme.git themes/hugo-theme-itheme
-echo "theme = 'hugo-theme-itheme'" >> config.toml
+npm uninstall cypress
 ```
-
-Then you need to add some configuration to `config.toml`, please flow the [Site Configuration](#site-configuration).
-
-## Screenshot
-
-![screenshot](https://raw.githubusercontent.com/floyd-li/hugo-theme-itheme/master/images/screenshot.png)
-
-## Features
-
-- `Light` and `Dark` mode for post
-- Three different sizes for images in the post
-- `i18n` support (currently only support `en` and `zh-hans`, there is a great need for contributing translation)
-- [Algolia](https://www.algolia.com/) search integration
-- Custom JavaScript/CSS support (You may put these files in `static/` directory)
-
-## Configuration
-
-### Site Configuration
-
-```toml
-defaultContentLanguage = "en" # current only supported 'en' and 'zh-hans', see the 'i18n' folder
-[params]
-  defaultCover = 'https://example.com/cover.jpg' # default cover image for post not setting cover
-  email = 'floyd.li@outlook.com' # the email address display in the footer
-  [params.algolia] # Algolia search configuration
-    enabled = true # enable Algolia search
-    appId = 'YOUR_KEY' # appid for Algolia search
-    appKey = 'YOUR_APP_KEY' # appkey for Algolia search
-    searchIndex = 'YOUR_INDEX' # index for Algolia search
-  [[params.css]] # custom css stylesheet, you can add one or more, url is relative in 'static' folder
-    url = 'css1.css'
-  [[params.css]]
-    url = 'css2.css'
-  [[params.js]] # custom javascript, you can add one or more, url is relative in 'static' folder
-    url = 'js1.js'
-  [[params.js]]
-    url = 'js2.js'
-  [[params.socialMedia]] # custom social links display in the footer, you can add one or more
-    name = 'Github'
-    url = 'https://github.com/floyd-li'
-  [[params.socialMedia]]
-    name = 'Twitter'
-    url = 'https://twitter.com/some-one'
-  [[params.blogroll]] # blogroll links display in the footer, you can add one or more
-    name = 'Apple'
-    url = 'https://Apple.com/'
-  [[params.blogroll]]
-    name = 'Google'
-    url = 'https://Google.com/'
-```
-
-### Post Configuration
-
-```markdown
----
-title: 'Some Article'
-date: '2022-10-27T13:06:38+08:00'
-draft: true
-description: 'some description of the article'
-author: 'author of this article'
-cover: 'https://example.com/cover.jpg' // if not set cover, it will use the 'defaultCover' in site configuration
-tags: ["tag1", "tag2", "tag3"]
-theme: "dark" // you can set 'light' or 'dark' here
----
-```
-
-### Three display modes of images
-
-The three display modes of images are: `inline`, `big`, `wide`, you can visit the [demo site](https://hugo-theme-itheme.netlify.app/posts/mark-down-syntax/#Image) for preview
-When you edit your markdown file, you can add `inline`, `big` or `wide` to the image alt, like this:
-
-```markdown
-![alt content|wide](a.png)
-```
-
-The Separator is `|`, and the default mode is `big`.

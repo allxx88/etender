@@ -1,18 +1,18 @@
-baseURL = 'https://etender.org'
+baseURL = 'https://gidroforum.ru'
 canonifyURLs = true
 languageCode = 'ru'
 defaultContentLanguage = "ru"
 hasCJKLanguage = true
 enableEmoji = true
-title = 'eTender'
-copyright = 'etender.pro'
-theme = ["etender"]
+title = 'ГИДРОФОРУМ'
+copyright = 'gidroforum.ru'
+theme = ["gidroforum"]
 pagerSize = 5
 [params]
   defaultCover = '/images/logo_site.png'
-  email = 'info@etender.pro'
-  phone = '+7 (928) 610-02-04'
-  adress = 'Ростов-на-Дону'
+  email = '001@armarost.ru'
+  phone = '+7 (989) 610-02-04'
+  adress = 'Ростов-на-Дону, ул. Вавилова, 62В'
   [[params.socialMedia]]
     name = 'ГИДРОФОРУМ'
     url = '/'
