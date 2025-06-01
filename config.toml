@@ -1,12 +1,12 @@
-baseURL = 'https://gidroforum.ru'
+baseURL = 'https://etender.pro'
 canonifyURLs = true
 languageCode = 'ru'
 defaultContentLanguage = "ru"
 hasCJKLanguage = true
 enableEmoji = true
-title = 'ГИДРОФОРУМ'
-copyright = 'gidroforum.ru'
-theme = ["gidroforum"]
+title = 'ЕТЕНДЕР '
+copyright = 'etender.pro'
+theme = ["etender"]
 pagerSize = 5
 [params]
   defaultCover = '/images/logo_site.png'
