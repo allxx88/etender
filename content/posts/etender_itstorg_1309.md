@@ -3,7 +3,7 @@ title: Электронный тендер ИТСТОРГ №1309
 date: '2025-06-09T11:48:48Z'
 description: Закупка товаров категории 28.4.7. Датчики-реле уровня - Тендер №1309
 author: eTender.pro
-image: /images/etender_itstorg_1309.png
+cover: /images/etender_itstorg_1309.png
 tags:
 - 28.4.7. Датчики-реле уровня
 - Лот 1309
