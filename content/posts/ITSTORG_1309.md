@@ -1,6 +1,6 @@
 ---
 author: eTender.pro
-cover: /images/purchases/ITSTORG_1309.png
+cover: /images/ITSTORG_1309.png
 date: '2025-06-09T11:48:48Z'
 description: Закупка товаров категории 28.4.7. Датчики-реле уровня - Лот №1309
 tags:
