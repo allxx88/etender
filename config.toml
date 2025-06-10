@@ -9,12 +9,12 @@ copyright = 'etender.pro'
 theme = ["etender"]
 pagerSize = 5
 [params]
-  defaultCover = '/images/logo_site.png'
-  email = '001@armarost.ru'
-  phone = '+7 (989) 610-02-04'
-  adress = 'Ростов-на-Дону, ул. Вавилова, 62В'
+  defaultCover = '/images/default.png'
+  email = 'lavinfo@bk.ru'
+  phone = '+7 (906) 4-234-234'
+  adress = 'ЮФО'
   [[params.socialMedia]]
-    name = 'ГИДРОФОРУМ'
+    name = 'etender.pro'
     url = '/'
   [[params.blogroll]]
     name = 'VK'
