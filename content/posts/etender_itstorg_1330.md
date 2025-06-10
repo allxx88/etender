@@ -7,7 +7,6 @@ author: eTender.pro
 cover: /images/etender_itstorg_1330.png
 tags:
 - 25.4.1. Запасные части к принтерам и устройствам многофункциональным
-- Лот 1330
 draft: false
 ---
 # Электронный тендер ИТСТОРГ №1330

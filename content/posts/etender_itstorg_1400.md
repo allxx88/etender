@@ -7,7 +7,6 @@ author: eTender.pro
 cover: /images/etender_itstorg_1400.png
 tags:
 - 25.4.7. Расходные материалы к оргтехнике
-- Лот 1400
 draft: false
 ---
 ```markdown

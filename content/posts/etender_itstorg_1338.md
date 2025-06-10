@@ -7,7 +7,6 @@ author: eTender.pro
 cover: /images/etender_itstorg_1338.png
 tags:
 - 25.4.6. Запасные части к серверному оборудованию
-- Лот 1338
 draft: false
 ---
 # Электронный тендер ИТСТОРГ №1338

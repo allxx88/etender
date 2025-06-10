@@ -6,7 +6,6 @@ author: eTender.pro
 cover: /images/etender_itstorg_1314.png
 tags:
 - 21.1.1. Теплообменники
-- Лот 1314
 draft: false
 ---
 # Электронный тендер ИТСТОРГ №1314

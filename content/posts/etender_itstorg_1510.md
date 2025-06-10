@@ -6,7 +6,6 @@ author: eTender.pro
 cover: /images/etender_itstorg_1510.png
 tags:
 - 21.2.2. Компрессоры
-- Лот 1510
 draft: false
 ---
 ```markdown

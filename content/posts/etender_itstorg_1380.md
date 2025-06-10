@@ -7,7 +7,6 @@ author: eTender.pro
 cover: /images/etender_itstorg_1380.png
 tags:
 - 17.3.1. Редукторы общего применения
-- Лот 1380
 draft: false
 ---
 # Электронный тендер ИТСТОРГ №1380

@@ -6,7 +6,6 @@ author: eTender.pro
 cover: /images/etender_itstorg_1309.png
 tags:
 - 28.4.7. Датчики-реле уровня
-- Лот 1309
 draft: false
 ---
 # Электронный тендер ИТСТОРГ №1309

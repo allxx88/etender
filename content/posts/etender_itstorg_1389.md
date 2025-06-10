@@ -6,7 +6,6 @@ author: eTender.pro
 cover: /images/etender_itstorg_1389.png
 tags:
 - 17.3.2. Мотор-редукторы
-- Лот 1389
 draft: false
 ---
 # Электронный тендер ИТСТОРГ №1389

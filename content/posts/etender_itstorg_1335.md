@@ -7,7 +7,6 @@ author: eTender.pro
 cover: /images/etender_itstorg_1335.png
 tags:
 - 25.4.5. Запасные части к сетевому оборудованию
-- Лот 1335
 draft: false
 ---
 # Электронный тендер ИТСТОРГ №1335
