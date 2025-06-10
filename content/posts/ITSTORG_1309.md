@@ -13,7 +13,7 @@ title: Закупка ИТСТОРГ Лот №1309
 
 [подать предложение](https://itstorg.ru/tender-1309?utm_source=etender)
 
-![Иллюстрация закупки](/images/purchases/ITSTORG_1309.png)
+![Иллюстрация закупки](/images/ITSTORG_1309.png)
 
 ## Введение
 
