@@ -1,7 +1,7 @@
 [home]
     other = "Главная"
 [posts]
-    other = "Статьи"
+    other = "Тендеры"
 [about]
     other = "О нас"
 [latestArticles]
@@ -19,7 +19,7 @@
 [of]
     other = "из"
 [allTags]
-    other = "Все категории"
+    other = "Категории тендеров"
 [author]
     other = "Автор"
 [postDate]
@@ -27,7 +27,7 @@
 [copyright]
     other = "Источник"
 [licenses]
-    other = "Гидрофорум"
+    other = "etender.pro"
 [search]
     other = "Поиск"
 [searchPlaceholder]
