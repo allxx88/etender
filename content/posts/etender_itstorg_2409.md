@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2409
-date: '2025-07-10T15:53:34Z'
+date: '2025-07-10'
 description: Закупка товаров категории 19.2.5. Приводы разъединителей - Тендер №2409
 author: eTender.pro
 cover: /images/etender_itstorg_2409.png

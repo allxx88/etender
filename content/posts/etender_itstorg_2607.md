@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2607
-date: '2025-07-10T16:24:19Z'
+date: '2025-07-10'
 description: Закупка товаров категории 28.9.9. Тиристоры - Тендер №2607
 author: eTender.pro
 cover: /images/etender_itstorg_2607.png

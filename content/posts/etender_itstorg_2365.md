@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2365
-date: '2025-07-10T15:49:20Z'
+date: '2025-07-10'
 description: Закупка товаров категории 17.2.7. Фильтры промышленные - Тендер №2365
 author: eTender.pro
 cover: /images/etender_itstorg_2365.png

@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2412
-date: '2025-07-10T15:54:10Z'
+date: '2025-07-10'
 description: Закупка товаров категории 19.4.3. Выключатели - Тендер №2412
 author: eTender.pro
 cover: /images/etender_itstorg_2412.png

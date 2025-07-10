@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2583
-date: '2025-07-10T16:20:40Z'
+date: '2025-07-10'
 description: Закупка товаров категории 32.6.16. Электрика прочая - Тендер №2583
 author: eTender.pro
 cover: /images/etender_itstorg_2583.png

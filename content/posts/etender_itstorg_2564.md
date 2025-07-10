@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2564
-date: '2025-07-10T16:17:20Z'
+date: '2025-07-10'
 description: Закупка товаров категории 32.6.16. Электрика прочая - Тендер №2564
 author: eTender.pro
 cover: /images/etender_itstorg_2564.png

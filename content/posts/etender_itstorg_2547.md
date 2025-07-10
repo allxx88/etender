@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2547
-date: '2025-07-10T16:09:58Z'
+date: '2025-07-10'
 description: Закупка товаров категории 21.2.1. Насосы - Тендер №2547
 author: eTender.pro
 cover: /images/etender_itstorg_2547.png

@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2591
-date: '2025-07-10T16:22:25Z'
+date: '2025-07-10'
 description: Закупка товаров категории 12.3.3. Оксиды технические - Тендер №2591
 author: eTender.pro
 cover: /images/etender_itstorg_2591.png

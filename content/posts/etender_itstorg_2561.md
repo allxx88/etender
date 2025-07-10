@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2561
-date: '2025-07-10T16:13:49Z'
+date: '2025-07-10'
 description: Закупка товаров категории 32.6.10. Фильтра на спецтехнику - Тендер №2561
 author: eTender.pro
 cover: /images/etender_itstorg_2561.png

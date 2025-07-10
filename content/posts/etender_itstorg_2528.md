@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2528
-date: '2025-07-10T16:06:50Z'
+date: '2025-07-10'
 description: Закупка товаров категории 45.2.1. Запасные части к станкам - Тендер №2528
 author: eTender.pro
 cover: /images/etender_itstorg_2528.png

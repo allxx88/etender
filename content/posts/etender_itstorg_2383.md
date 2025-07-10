@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2383
-date: '2025-07-10T15:52:02Z'
+date: '2025-07-10'
 description: Закупка товаров категории 33.2.2. Пломбы контрольные - Тендер №2383
 author: eTender.pro
 cover: /images/etender_itstorg_2383.png

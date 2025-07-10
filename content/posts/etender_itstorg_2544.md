@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2544
-date: '2025-07-10T16:08:39Z'
+date: '2025-07-10'
 description: Закупка товаров категории 21.2.2. Компрессоры - Тендер №2544
 author: eTender.pro
 cover: /images/etender_itstorg_2544.png

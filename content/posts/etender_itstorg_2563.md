@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2563
-date: '2025-07-10T16:16:10Z'
+date: '2025-07-10'
 description: Закупка товаров категории 24.5.1. Круги отрезные - Тендер №2563
 author: eTender.pro
 cover: /images/etender_itstorg_2563.png

@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2509
-date: '2025-07-10T16:01:04Z'
+date: '2025-07-10'
 description: Закупка товаров категории 25.3.6. Клавиатуры - Тендер №2509
 author: eTender.pro
 cover: /images/etender_itstorg_2509.png

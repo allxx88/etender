@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2512
-date: '2025-07-10T16:02:25Z'
+date: '2025-07-10'
 description: Закупка товаров категории 24.1.1. Сверла - Тендер №2512
 author: eTender.pro
 cover: /images/etender_itstorg_2512.png

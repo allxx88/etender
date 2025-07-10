@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2502
-date: '2025-07-10T15:59:27Z'
+date: '2025-07-10'
 description: Закупка товаров категории 30.2.16. Сита лабораторные - Тендер №2502
 author: eTender.pro
 cover: /images/etender_itstorg_2502.png

@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2550
-date: '2025-07-10T16:11:26Z'
+date: '2025-07-10'
 description: Закупка товаров категории 21.2.2. Компрессоры - Тендер №2550
 author: eTender.pro
 cover: /images/etender_itstorg_2550.png

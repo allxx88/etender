@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2545
-date: '2025-07-10T16:09:13Z'
+date: '2025-07-10'
 description: Закупка товаров категории 21.2.2. Компрессоры - Тендер №2545
 author: eTender.pro
 cover: /images/etender_itstorg_2545.png

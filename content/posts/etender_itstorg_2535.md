@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2535
-date: '2025-07-10T16:07:27Z'
+date: '2025-07-10'
 description: Закупка товаров категории 19.4.1. Блоки контактные - Тендер №2535
 author: eTender.pro
 cover: /images/etender_itstorg_2535.png

@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2470
-date: '2025-07-10T15:56:57Z'
+date: '2025-07-10'
 description: Закупка товаров категории 21.2.2. Компрессоры - Тендер №2470
 author: eTender.pro
 cover: /images/etender_itstorg_2470.png

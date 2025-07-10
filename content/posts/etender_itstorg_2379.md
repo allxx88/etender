@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2379
-date: '2025-07-10T15:50:40Z'
+date: '2025-07-10'
 description: Закупка товаров категории 12.10.1. Материалы лакокрасочные - Тендер №2379
 author: eTender.pro
 cover: /images/etender_itstorg_2379.png

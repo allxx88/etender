@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2518
-date: '2025-07-10T16:03:00Z'
+date: '2025-07-10'
 description: Закупка товаров категории 21.8.8. Вентиляторы - Тендер №2518
 author: eTender.pro
 cover: /images/etender_itstorg_2518.png
