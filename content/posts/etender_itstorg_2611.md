@@ -1,6 +1,6 @@
 ---
 title: Электронный тендер ИТСТОРГ №2611
-date: '2025-07-10T16:26:21Z'
+date: '2025-07-10'
 description: Закупка товаров категории 17.3.2. Мотор-редукторы - Тендер №2611
 author: eTender.pro
 cover: /images/etender_itstorg_2611.png
