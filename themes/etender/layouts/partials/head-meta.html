@@ -1,0 +1,47 @@
+{{/* Получаем описание в порядке приоритета */}}
+{{- $description := "" -}}
+
+{{/* 1. Приоритет: Description из front matter */}}
+{{- if .Description -}}
+    {{- $description = .Description -}}
+
+{{/* 2. Для обычных страниц: генерируем из контента */}}
+{{- else if .IsPage -}}
+    {{- $rawContent := .Content -}}
+    
+    {{/* Удаляем HTML-теги */}}
+    {{- $plainContent := $rawContent | plainify -}}
+    
+    {{/* Удаляем лишние пробелы и переносы строк */}}
+    {{- $cleanContent := $plainContent | replaceRE "\\s+" " " | trim -}}
+    
+    {{/* Обрезаем до нужной длины */}}
+    {{- $truncateLength := default 160 .Site.Params.truncateSummary -}}
+    {{- $description = $cleanContent | truncate $truncateLength -}}
+    
+    {{/* Если после очистки пусто, берем заголовок */}}
+    {{- if eq (len $description) 0 -}}
+        {{- $description = .Title -}}
+    {{- end -}}
+
+{{/* 3. Для разделов: используем заголовок */}}
+{{- else if .IsSection -}}
+    {{- $description = .Title -}}
+    
+    {{/* Можно добавить описание раздела из _index.md */}}
+    {{- with .Params.subtitle -}}
+        {{- $description = printf "%s: %s" $description . -}}
+    {{- end -}}
+
+{{/* 4. По умолчанию: глобальное описание сайта */}}
+{{- else -}}
+    {{- $description = .Site.Params.siteDescription -}}
+{{- end -}}
+
+{{/* 5. Финал: если все еще пусто, заголовок сайта */}}
+{{- if eq (len ($description | string)) 0 -}}
+    {{- $description = .Site.Title -}}
+{{- end -}}
+
+{{/* Выводим мета-тег */}}
+<meta name="description" content="{{ $description }}">
